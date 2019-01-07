@@ -2,10 +2,10 @@
 //Programmer:		Austin M Farrell
 //Associated file:  StandardHelperFunctions.h
 //Function Definitions:
-//		PrintDividerToConsole
-//      PrintDivider
-//      PrintCenteredMessage
-//		PrintArrayToConsole
+//	PrintDividerToConsole
+//  PrintDivider
+//  PrintCenteredMessage
+//	PrintArrayToConsole
 //------------------------------------------------------------------------------
 #ifndef StandardHelperFunctions_h
 #define StandardHelperFunctions_h
@@ -42,5 +42,21 @@ void PrintArrayToConsole(type data[], int length)
 		} // !for
 	} // !else
 } // !PrintArrayToConsole
+
+//------------------------------------------------------------------------------
+//Swap: Swaps the data pointed to be the two given pointers
+//------------------------------------------------------------------------------
+template <typename type>
+void Swap(type* first, type* second)
+{
+	//Save the value in the first pointer
+	type temp = &first;
+
+	//Copy the value in the second pointer to the first pointer
+	first = second;
+
+	//Save the value in the temp variable to the second pointer
+	second = *temp;
+} // !Swap
 
 #endif // !StandardHelperFunctions_h

@@ -1,9 +1,9 @@
 //------------------------------------------------------------------------------
 //Programmer:		Austin M Farrell
 //Function Definitions:
-//		PrintDividerToConsole
-//      PrintDivider
-//      PrintCenteredMessage
+//	PrintDividerToConsole
+//  PrintDivider
+//  PrintCenteredMessage
 //------------------------------------------------------------------------------
 
 #include "StandardHelperFunctions.h"
