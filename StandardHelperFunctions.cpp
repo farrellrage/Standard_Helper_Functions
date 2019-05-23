@@ -4,6 +4,8 @@
 //	PrintDividerToConsole
 //  PrintDivider
 //  PrintCenteredMessage
+//	Max
+//	Min
 //------------------------------------------------------------------------------
 
 #include "StandardHelperFunctions.h"
@@ -43,14 +45,27 @@ void PrintCenteredMessage(ostream& fout, string message, int centerWidth)
 } // !PrintCenteredMessage
 
 //------------------------------------------------------------------------------
-//max: If a is greater than b then return a, else return b
+//Max: If a is greater than b then return a, else return b
 //--------------------------------------
 //	a:
-//		First value that will be compared by
+//		First value that will be compared
 //	b:
-//		Second value that will be compared to
+//		Second value that will be compared
 //------------------------------------------------------------------------------
-int max(int a, int b)
+int Max(int a, int b)
 {
 	return (a > b) ? a : b;
-} // !max
+} // !Max
+
+//------------------------------------------------------------------------------
+//Min: If a is less than b then return a, else return b
+//--------------------------------------
+//	a:
+//		First value that will be compared
+//	b:
+//		Second value that will be compared
+//------------------------------------------------------------------------------
+int Min (int a, int b)
+{
+	return (a < b) ? a : b;
+} // !Min

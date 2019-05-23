@@ -4,8 +4,11 @@
 //Function Definitions:
 //	PrintDividerToConsole
 //  PrintDivider
+//	Max
+//	Min
 //  PrintCenteredMessage
 //	PrintArrayToConsole
+//	Swap
 //------------------------------------------------------------------------------
 #ifndef StandardHelperFunctions_h
 #define StandardHelperFunctions_h
@@ -19,14 +22,24 @@ void PrintDivider(ostream& fout, int length, char character);
 void PrintCenteredMessage(ostream& fout, string message, int centerWidth);
 
 //------------------------------------------------------------------------------
-//max: If a is greater than b then return a, else return b
+//Max: If a is greater than b then return a, else return b
 //--------------------------------------
 //	a:
 //		First value that will be compared by
 //	b:
 //		Second value that will be compared to
 //------------------------------------------------------------------------------
-int max(int a, int b);
+int Max(int a, int b);
+
+//------------------------------------------------------------------------------
+//Min: If a is less than b then return a, else return b
+//--------------------------------------
+//	a:
+//		First value that will be compared
+//	b:
+//		Second value that will be compared
+//------------------------------------------------------------------------------
+int Min (int a, int b);
 
 //------------------------------------------------------------------------------
 //PrintArrayToConsole: Outputs the contents of the given array to the console
