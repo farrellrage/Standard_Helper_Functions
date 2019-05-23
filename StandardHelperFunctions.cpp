@@ -41,3 +41,16 @@ void PrintCenteredMessage(ostream& fout, string message, int centerWidth)
 	// Output the centered message to the specified destination
 	fout << right << setw(centerOfScreen) << message << endl;
 } // !PrintCenteredMessage
+
+//------------------------------------------------------------------------------
+//max: If a is greater than b then return a, else return b
+//--------------------------------------
+//	a:
+//		First value that will be compared by
+//	b:
+//		Second value that will be compared to
+//------------------------------------------------------------------------------
+int max(int a, int b)
+{
+	return (a > b) ? a : b;
+} // !max
