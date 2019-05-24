@@ -8,7 +8,7 @@
 //	Min
 //------------------------------------------------------------------------------
 
-#include "StandardHelperFunctions.h"
+#include "Standard_Helper_Functions.h"
 
 //------------------------------------------------------------------------------
 //PrintDividerToConsole: Outputs a divider line to the console

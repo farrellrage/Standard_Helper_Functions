@@ -1,6 +1,5 @@
 //------------------------------------------------------------------------------
 //Programmer:		Austin M Farrell
-//Associated file:  StandardHelperFunctions.h
 //Function Definitions:
 //	PrintDividerToConsole
 //  PrintDivider
@@ -10,10 +9,10 @@
 //	PrintArrayToConsole
 //	Swap
 //------------------------------------------------------------------------------
-#ifndef StandardHelperFunctions_h
-#define StandardHelperFunctions_h
+#ifndef Standard_Helper_Functions_h
+#define Standard_Helper_Functions_h
 
-#include "Standards.h"
+#include "Main.h"
 
 void PrintDividerToConsole(int length, char character);
 
@@ -82,4 +81,4 @@ void Swap(type* first, type* second)
 	second = *temp;
 } // !Swap
 
-#endif // !StandardHelperFunctions_h
+#endif // !Standard_Helper_Functions_h

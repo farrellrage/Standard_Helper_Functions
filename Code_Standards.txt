@@ -5,3 +5,26 @@ Folder/File naming standards:
  underscores '_'
 * The first letter of each word should be capitalized
 ============================================================
+Function naming standards:
+--------------------
+* Every word in the function name should run together (i.e.
+ no underscores)
+* The first letter of each word should be capitalized
+* If any word in the name is meant as a modifier (i.e.
+ SortASCENDING vs SortDESCENDING) the modifier should go at
+ the end of the function name
+============================================================
+Constant variable naming standards:
+--------------------
+* Every word in the constant name should be separated by
+ underscores '_'
+* Every word in the constant name should be completely
+ capitalized
+============================================================
+Variable naming standards:
+--------------------
+* Every word in the variable name should run together (i.e.
+ no underscores)
+* The first letter of each word should be capitalized except
+ for the first word in the variable name (i.e. oneTwo)
+============================================================
