@@ -1,1 +1,7 @@
-
+============================================================
+Folder/File naming standards:
+--------------------
+* Individual words in the file name should be separated by
+ underscores '_'
+* The first letter of each word should be capitalized
+============================================================
