@@ -5,8 +5,8 @@
 //	Namespace
 //	Constants
 //------------------------------------------------------------------------------
-#ifndef Standards_h
-#define Standards_h
+#ifndef Main_h
+#define Main_h
 
 #include <iostream>
 #include <string>
@@ -22,4 +22,4 @@ const char DIVIDER_CHAR = '*';
 const char SUB_DIVIDER_CHAR = '-';
 const char ERROR_DIVIDER_CHAR = '#';
 
-#endif Standards_h
+#endif // !Main_h
