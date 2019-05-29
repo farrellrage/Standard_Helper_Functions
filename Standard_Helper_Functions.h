@@ -3,9 +3,9 @@
 //Function Definitions:
 //	PrintDividerToConsole
 //  PrintDivider
+//  PrintCenteredMessage
 //	Max
 //	Min
-//  PrintCenteredMessage
 //	PrintArrayToConsole
 //	Swap
 //------------------------------------------------------------------------------

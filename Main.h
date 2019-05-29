@@ -8,6 +8,7 @@
 #ifndef Main_h
 #define Main_h
 
+#include <cstdlib>
 #include <iostream>
 #include <string>
 #include <iomanip>
